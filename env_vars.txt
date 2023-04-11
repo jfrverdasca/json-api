@@ -1,0 +1,3 @@
+MQTT_SERVER=mosquitto
+MQTT_TOPIC_PREFIX=eneida/config/
+JSON_FILE_PATH=TypeGConfig.json

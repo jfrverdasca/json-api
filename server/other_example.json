@@ -1,0 +1,12 @@
+{
+ "node1": "node1_value",
+ "node2": {
+  "innerNode21": "innerNode21_value",
+  "innerNode22": 2,
+  "list": [
+   {
+    "test": "value"
+   }
+  ]
+ }
+}

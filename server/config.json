@@ -1,0 +1,24 @@
+{
+  "mqtt": {
+    "enabled": false,
+    "host": "localhost",
+    "port": 1883,
+    "client_id": "<auto>",
+    "publish": {
+      "topic_prefix": "api/prefix",
+      "json_path_topic_depth": 0,
+      "request_file_in_message_content": false
+    }
+  },
+  "api": {
+    "files": {
+      "example": {
+        "path": "example.json",
+        "default": true
+      },
+      "other_example": {
+        "path": "other_example.json"
+      }
+    }
+  }
+}

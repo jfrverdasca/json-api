@@ -1,0 +1,21 @@
+{
+ "node1": {
+  "test": {}
+ },
+ "node2": {
+  "list": [
+   {
+    "id": 1,
+    "name": "item1"
+   },
+   {
+    "id": 2,
+    "name": "item2"
+   }
+  ]
+ },
+ "node3": {
+  "innerNode31": "node3_value"
+ },
+ "test": 0
+}

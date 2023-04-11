@@ -1,0 +1,25 @@
+# https://stackoverflow.com/questions/24225647/docker-a-way-to-give-access-to-a-host-usb-or-serial-device
+# https://www.losant.com/blog/how-to-access-serial-devices-in-docker
+
+version: "3.4"  # optional since v1.27.0
+
+services:
+  mosquitto:
+    image: eclipse-mosquitto:2.0.14
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - "./mosquitto.conf:/mosquitto/config/mosquitto.conf"
+
+  api:
+    image: json-rest-api:latest
+    ports:
+      - "8000:80"
+    volumes:
+      - "./server/config.json:/server/config.json"
+      - "./test_config/example.json:/server/example.json"
+      - "./test_config/other_example.json:/server/other_example.json"
+    depends_on:
+      - mosquitto
+    

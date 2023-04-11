@@ -1,0 +1,7 @@
+starlette==0.19.1
+paho-mqtt==1.6.1
+uvicorn==0.17.6
+jsonschema==4.17.3
+
+# unit tests libs
+httpx==0.23.0
