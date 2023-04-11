@@ -4,7 +4,7 @@ metadata:
   name: json-api
   annotations:
     github.com/project-slug: jfrverdasca/json-api
-    backstage.io/techdocs-ref: dir: ./proj-docs/
+    backstage.io/techdocs-ref: proj-docs/mkdocs.yml
 spec:
   type: other
   lifecycle: unknown
