@@ -2,6 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: json-api
+  links:
+    - url: localhost:8000
+      title: JSON API
+      icon: dashboard
   annotations:
     github.com/project-slug: jfrverdasca/json-api
     backstage.io/techdocs-ref: proj-docs
