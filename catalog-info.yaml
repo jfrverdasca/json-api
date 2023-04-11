@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: json-api
+  annotations:
+    github.com/project-slug: jfrverdasca/json-api
+spec:
+  type: other
+  lifecycle: unknown
+  owner: jverdasca
