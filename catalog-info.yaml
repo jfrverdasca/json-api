@@ -8,7 +8,7 @@ metadata:
       icon: dashboard
   annotations:
     github.com/project-slug: jfrverdasca/json-api
-    backstage.io/techdocs-ref: dir:./proj-docs
+    backstage.io/techdocs-ref: url:https://github.com/jfrverdasca/json-api/tree/main/proj-docs
 spec:
   type: other
   lifecycle: unknown
