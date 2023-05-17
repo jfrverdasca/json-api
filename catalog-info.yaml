@@ -9,10 +9,7 @@ metadata:
   annotations:
     github.com/project-slug: jfrverdasca/json-api
     backstage.io/techdocs-ref: url:https://github.com/jfrverdasca/json-api/tree/main/proj-docs
-    sonarqube.org/project-key: json-api
-  tags:
-    - python
 spec:
-  type: service
-  lifecycle: production
+  type: other
+  lifecycle: unknown
   owner: jverdasca
