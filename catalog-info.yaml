@@ -11,6 +11,6 @@ metadata:
     backstage.io/techdocs-ref: url:https://github.com/jfrverdasca/json-api/tree/main/proj-docs
     sonarqube.org/project-key: json_api
 spec:
-  type: other
+  type: service
   lifecycle: unknown
   owner: jverdasca
