@@ -12,5 +12,5 @@ metadata:
     sonarqube.org/project-key: json_api
 spec:
   type: service
-  lifecycle: unknown
+  lifecycle: experimental
   owner: jverdasca
