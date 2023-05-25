@@ -10,6 +10,7 @@ metadata:
     github.com/project-slug: jfrverdasca/json-api
     backstage.io/techdocs-ref: url:https://github.com/jfrverdasca/json-api/tree/main/proj-docs
     sonarqube.org/project-key: json_api
+    goharbor.io/repository-slug: json_api
 spec:
   type: service
   lifecycle: experimental
